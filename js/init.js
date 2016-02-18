@@ -34,3 +34,16 @@
       //complete: function() { alert('Closed'); } // Callback for Modal close
     }
   );
+  
+  $(window).scroll(function() {
+
+    if ($(this).scrollTop()>150)
+     {
+        $('.fixe').fadeOut();
+     }
+    else
+     {
+      $('.fixe').fadeIn();
+     }
+ });
+
