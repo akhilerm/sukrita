@@ -9,7 +9,7 @@
 }
 .abc
 {
- background-image: url("caring.jpg");
+ background-image: url("../img/caring.jpg");
 
 background-repeat:no-repeat;
 background-size:auto;
@@ -18,7 +18,7 @@ background-position:center;
 }
 @media screen and (max-width: 480px) {
     .abc {
-         background-image: url("bg.jpg");
+         background-image: url("../img/bg.jpg");
 
 background-repeat:no-repeat;
 background-size:cover;
@@ -134,7 +134,7 @@ margin-top:-15px;
     display: inline;
 }
 .a14
-{ 
+{
   margin-top: 10px;
   margin-right: 15px;
   color: white;
