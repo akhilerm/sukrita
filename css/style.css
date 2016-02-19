@@ -35,7 +35,7 @@ background-position:center;
     }
 	.fixe
 	{
-		display:none;
+		display:none !important;
 	}
 }
 h1
